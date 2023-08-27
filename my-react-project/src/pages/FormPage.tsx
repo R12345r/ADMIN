@@ -20,18 +20,18 @@ const FormPage: React.FC = () => {
 
   return (
     <div
-      className="flex items-center justify-center h-screen bg-cover bg-no-repeat bg-center bg-fixed"
-      style={{ backgroundImage: 'url("./public/welcome.jpg")' }}
+      className=" absolute inset-0 flex items-center justify-center h-screen bg-gradient-to-l from-pink-200 to-indigo-600"
+
     >
       <div className="text-center">
-        <h1 className="text-2xl font-bold mb-4">Welcome to the CMS Admin</h1>
+        <h1 className="text-3xl font-bold mb-4">Welcome to the CMS Admin</h1>
         {formSubmitted ? (
           <p className="text-green-500">Form Successfully Submitted!</p>
         ) : (
           registrationSuccess ? (
             <p className="text-green-500">Registration Successful!</p>
           ) : (
-            <p className="text-green-500">You have successfully logged in!</p>
+            <h6 className="text-green-900">You have successfully logged in!</h6>
           )
         )}
         {/* You can add your form elements and content here */}
