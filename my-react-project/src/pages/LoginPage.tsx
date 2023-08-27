@@ -27,7 +27,7 @@ const LoginPage: React.FC = () => {
 	}
   };
   return (
-    <div className="absolute inset-0 flex items-center justify-center bg-cover bg-no-repeat bg-center bg-fixed" style={{ backgroundImage: 'url("./public/bridge.jpg")' }}>
+    <div className="absolute inset-0 flex items-center justify-center bg-cover bg-no-repeat bg-center bg-fixed" style={{ backgroundImage: 'url("./bridge.jpg")' }}>
       <div className="w-full max-w-md p-8 space-y-3 rounded-xl dark:bg-gray-900 dark:text-gray-100 mx-auto my-20 ">
         {loginSuccess ? ( 
           <div className="flex flex-col items-center justify-center mb-6">
