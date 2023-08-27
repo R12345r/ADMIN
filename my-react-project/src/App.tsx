@@ -21,7 +21,7 @@ const App: React.FC = () => {
             <Route path="/multistepform" component={MultiStepFormPage} />
             <Route path="/form" component={FormPage} /> 
 
-            {/* Add more routes here */}
+         
           </Switch>
         </div>
       </div>

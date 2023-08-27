@@ -34,7 +34,7 @@ const FormPage: React.FC = () => {
             <h6 className="text-green-900">You have successfully logged in!</h6>
           )
         )}
-        {/* You can add your form elements and content here */}
+  
       </div>
     </div>
   );
